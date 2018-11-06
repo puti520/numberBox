@@ -1,0 +1,11 @@
+<!--pages/Component/numberBox/numberBox.wxml-->
+<view class="numberBox">
+ <view class="remarks">{{remark}}</view>
+ <view class="tui-gallery-list">
+ <view class="group">
+  <button id="numberBoxPrev" class="numberBoxPrev" bindtap="prevNum">-</button>
+  <input  id="numberBoxCell" class="numberBoxCell" type="number" value='{{number}}' bindblur='focusLeave'  ></input>
+  <button id="numberBoxNext" class="numberBoxNext" bindtap="nextNum">+</button>
+ </view>
+ </view>
+</view>

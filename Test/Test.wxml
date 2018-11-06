@@ -1,0 +1,9 @@
+<!--pages/Test/Test.wxml-->
+
+<view>
+  <view>
+    <numberBox bindtxtValueChanged="txtValueChanged"  number="200" maximum="1000" minimum="-100" remark="最小值:-100 最大值1000 （可以为空）" ></numberBox>
+    <label>数字改变事件：</label>
+    <label>{{labelText}}</label>
+  </view>
+</view>
