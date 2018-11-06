@@ -1,10 +1,12 @@
 # 【numberBox】微信小程序数字组件
 ## 1.大小限制【可设置上下限值】 2.数字改变事件【数字大小改变后触发exchanged事件】
 ##效果图如下
+
 ![](github.com/puti520/numberBox/blob/master/Test/wxnumberbox1.gif)
 
 ## 属性设置如下
 
+···
 <!--pages/Test/Test.wxml-->
 <view>
   <view>
@@ -13,8 +15,10 @@
     <label>{{labelText}}</label>
   </view>
 </view>
+····
 
 ## 数字改变事件调用
+
 
 Page({
   /**
@@ -29,3 +33,4 @@ Page({
     this.setData({ labelText:e.detail.number});
   }
 })
+
