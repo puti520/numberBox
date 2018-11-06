@@ -6,7 +6,7 @@
 
 ## 属性设置如下
 
-···
+///
 <!--pages/Test/Test.wxml-->
 <view>
   <view>
@@ -15,7 +15,7 @@
     <label>{{labelText}}</label>
   </view>
 </view>
-····
+///
 
 ## 数字改变事件调用
 
