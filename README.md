@@ -4,7 +4,9 @@
 
 ![](https://github.com/puti520/numberBox/blob/master/Test/wxnumberbox1.gif)
 
-## 属性设置如下
+## 使用
+
+### 【Test.wxml】 属性设置如下 
 ```
 <!--pages/Test/Test.wxml-->
 <view>
@@ -16,7 +18,17 @@
 </view>
 ```
 
-## 数字改变事件调用
+### 【Test.json】 声明numberbox组件
+```
+// pages/Test/Test.json
+{
+  "usingComponents": {
+    "numberBox": "/pages/Component/numberBox/numberBox"
+  }
+}
+```
+
+### 【Test.js】数字改变事件调用 
 
 ```
 Page({
