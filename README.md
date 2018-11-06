@@ -2,7 +2,7 @@
 ## 1.大小限制【可设置上下限值】 2.数字改变事件【数字大小改变后触发exchanged事件】
 ##效果图如下
 
-![](github.com/puti520/numberBox/blob/master/Test/wxnumberbox1.gif)
+![](https://github.com/puti520/numberBox/blob/master/Test/wxnumberbox1.gif)
 
 ## 属性设置如下
 
